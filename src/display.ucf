@@ -1,0 +1,37 @@
+NET "PO_seg<0>" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "PO_seg<1>" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "PO_seg<2>" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "PO_seg<3>" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "PO_seg<4>" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "PO_seg<5>" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "PO_seg<6>" LOC = "M12"; # Bank = 1, Signal name = CG
+NET "PO_seg<7>" LOC = "N13"; # Bank = 1, Signal name = DP
+
+NET "PO_an<3>" LOC = "K14"; # Bank = 1, Signal name = AN3
+NET "PO_an<2>" LOC = "M13"; # Bank = 1, Signal name = AN2
+NET "PO_an<1>" LOC = "J12"; # Bank = 1, Signal name = AN1
+NET "PO_an<0>" LOC = "F12"; # Bank = 1, Signal name = AN0
+
+#add missing inputs for a,b and op selection.
+
+NET "clk" LOC = "B8";
+
+
+NET "PI_a<3>" loc = "B4"; 
+NET "PI_a<2>" loc = "K3";
+NET "PI_a<1>" loc = "L3"; 
+NET "PI_a<0>" loc = "P11";
+
+
+NET "PI_b<3>" loc = "N3"; 
+NET "PI_b<2>" loc = "E2";
+NET "PI_b<1>" loc = "F3"; 
+NET "PI_b<0>" loc = "G3";
+
+NET "PI_sel<2>" loc = "M4";
+NET "PI_sel<1>" loc = "C11";
+NET "PI_sel<0>" loc = "G12";
+
+
+ 
+ 
